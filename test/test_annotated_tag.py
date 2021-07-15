@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.annotated_tag import AnnotatedTag  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.annotated_tag import AnnotatedTag  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestAnnotatedTag(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestAnnotatedTag(unittest.TestCase):
     def testAnnotatedTag(self):
         """Test AnnotatedTag"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.annotated_tag.AnnotatedTag()  # noqa: E501
+        # model = giteapy.models.annotated_tag.AnnotatedTag()  # noqa: E501
         pass
 
 

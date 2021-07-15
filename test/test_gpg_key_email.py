@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.gpg_key_email import GPGKeyEmail  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.gpg_key_email import GPGKeyEmail  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestGPGKeyEmail(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestGPGKeyEmail(unittest.TestCase):
     def testGPGKeyEmail(self):
         """Test GPGKeyEmail"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.gpg_key_email.GPGKeyEmail()  # noqa: E501
+        # model = giteapy.models.gpg_key_email.GPGKeyEmail()  # noqa: E501
         pass
 
 

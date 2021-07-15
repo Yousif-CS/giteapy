@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.file_response import FileResponse  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.file_response import FileResponse  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestFileResponse(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestFileResponse(unittest.TestCase):
     def testFileResponse(self):
         """Test FileResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.file_response.FileResponse()  # noqa: E501
+        # model = giteapy.models.file_response.FileResponse()  # noqa: E501
         pass
 
 

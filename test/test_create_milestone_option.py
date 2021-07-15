@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.create_milestone_option import CreateMilestoneOption  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.create_milestone_option import CreateMilestoneOption  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestCreateMilestoneOption(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestCreateMilestoneOption(unittest.TestCase):
     def testCreateMilestoneOption(self):
         """Test CreateMilestoneOption"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.create_milestone_option.CreateMilestoneOption()  # noqa: E501
+        # model = giteapy.models.create_milestone_option.CreateMilestoneOption()  # noqa: E501
         pass
 
 

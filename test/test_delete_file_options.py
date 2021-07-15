@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.delete_file_options import DeleteFileOptions  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.delete_file_options import DeleteFileOptions  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestDeleteFileOptions(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestDeleteFileOptions(unittest.TestCase):
     def testDeleteFileOptions(self):
         """Test DeleteFileOptions"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.delete_file_options.DeleteFileOptions()  # noqa: E501
+        # model = giteapy.models.delete_file_options.DeleteFileOptions()  # noqa: E501
         pass
 
 

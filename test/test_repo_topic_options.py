@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.repo_topic_options import RepoTopicOptions  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.repo_topic_options import RepoTopicOptions  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestRepoTopicOptions(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestRepoTopicOptions(unittest.TestCase):
     def testRepoTopicOptions(self):
         """Test RepoTopicOptions"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.repo_topic_options.RepoTopicOptions()  # noqa: E501
+        # model = giteapy.models.repo_topic_options.RepoTopicOptions()  # noqa: E501
         pass
 
 

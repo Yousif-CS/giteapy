@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.commit_date_options import CommitDateOptions  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.commit_date_options import CommitDateOptions  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestCommitDateOptions(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestCommitDateOptions(unittest.TestCase):
     def testCommitDateOptions(self):
         """Test CommitDateOptions"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.commit_date_options.CommitDateOptions()  # noqa: E501
+        # model = giteapy.models.commit_date_options.CommitDateOptions()  # noqa: E501
         pass
 
 

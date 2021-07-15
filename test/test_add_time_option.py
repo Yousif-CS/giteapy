@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.add_time_option import AddTimeOption  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.add_time_option import AddTimeOption  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestAddTimeOption(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestAddTimeOption(unittest.TestCase):
     def testAddTimeOption(self):
         """Test AddTimeOption"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.add_time_option.AddTimeOption()  # noqa: E501
+        # model = giteapy.models.add_time_option.AddTimeOption()  # noqa: E501
         pass
 
 

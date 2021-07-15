@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.commit_user import CommitUser  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.commit_user import CommitUser  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestCommitUser(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestCommitUser(unittest.TestCase):
     def testCommitUser(self):
         """Test CommitUser"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.commit_user.CommitUser()  # noqa: E501
+        # model = giteapy.models.commit_user.CommitUser()  # noqa: E501
         pass
 
 

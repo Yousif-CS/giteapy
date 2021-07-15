@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.transfer_repo_option import TransferRepoOption  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.transfer_repo_option import TransferRepoOption  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestTransferRepoOption(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestTransferRepoOption(unittest.TestCase):
     def testTransferRepoOption(self):
         """Test TransferRepoOption"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.transfer_repo_option.TransferRepoOption()  # noqa: E501
+        # model = giteapy.models.transfer_repo_option.TransferRepoOption()  # noqa: E501
         pass
 
 

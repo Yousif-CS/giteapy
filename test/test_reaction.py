@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.reaction import Reaction  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.reaction import Reaction  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestReaction(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestReaction(unittest.TestCase):
     def testReaction(self):
         """Test Reaction"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.reaction.Reaction()  # noqa: E501
+        # model = giteapy.models.reaction.Reaction()  # noqa: E501
         pass
 
 

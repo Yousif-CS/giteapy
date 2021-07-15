@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.access_token import AccessToken  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.access_token import AccessToken  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestAccessToken(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestAccessToken(unittest.TestCase):
     def testAccessToken(self):
         """Test AccessToken"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.access_token.AccessToken()  # noqa: E501
+        # model = giteapy.models.access_token.AccessToken()  # noqa: E501
         pass
 
 

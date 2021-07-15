@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.commit_affected_files import CommitAffectedFiles  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.commit_affected_files import CommitAffectedFiles  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestCommitAffectedFiles(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestCommitAffectedFiles(unittest.TestCase):
     def testCommitAffectedFiles(self):
         """Test CommitAffectedFiles"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.commit_affected_files.CommitAffectedFiles()  # noqa: E501
+        # model = giteapy.models.commit_affected_files.CommitAffectedFiles()  # noqa: E501
         pass
 
 

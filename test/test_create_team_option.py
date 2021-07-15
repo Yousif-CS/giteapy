@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.create_team_option import CreateTeamOption  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.create_team_option import CreateTeamOption  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestCreateTeamOption(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestCreateTeamOption(unittest.TestCase):
     def testCreateTeamOption(self):
         """Test CreateTeamOption"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.create_team_option.CreateTeamOption()  # noqa: E501
+        # model = giteapy.models.create_team_option.CreateTeamOption()  # noqa: E501
         pass
 
 

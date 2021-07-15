@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.pull_request_meta import PullRequestMeta  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.pull_request_meta import PullRequestMeta  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestPullRequestMeta(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestPullRequestMeta(unittest.TestCase):
     def testPullRequestMeta(self):
         """Test PullRequestMeta"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.pull_request_meta.PullRequestMeta()  # noqa: E501
+        # model = giteapy.models.pull_request_meta.PullRequestMeta()  # noqa: E501
         pass
 
 

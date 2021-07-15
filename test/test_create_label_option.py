@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.create_label_option import CreateLabelOption  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.create_label_option import CreateLabelOption  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestCreateLabelOption(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestCreateLabelOption(unittest.TestCase):
     def testCreateLabelOption(self):
         """Test CreateLabelOption"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.create_label_option.CreateLabelOption()  # noqa: E501
+        # model = giteapy.models.create_label_option.CreateLabelOption()  # noqa: E501
         pass
 
 

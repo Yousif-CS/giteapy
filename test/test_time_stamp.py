@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.time_stamp import TimeStamp  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.time_stamp import TimeStamp  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestTimeStamp(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestTimeStamp(unittest.TestCase):
     def testTimeStamp(self):
         """Test TimeStamp"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.time_stamp.TimeStamp()  # noqa: E501
+        # model = giteapy.models.time_stamp.TimeStamp()  # noqa: E501
         pass
 
 

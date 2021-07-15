@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.edit_user_option import EditUserOption  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.edit_user_option import EditUserOption  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestEditUserOption(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestEditUserOption(unittest.TestCase):
     def testEditUserOption(self):
         """Test EditUserOption"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.edit_user_option.EditUserOption()  # noqa: E501
+        # model = giteapy.models.edit_user_option.EditUserOption()  # noqa: E501
         pass
 
 

@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.create_pull_request_option import CreatePullRequestOption  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.create_pull_request_option import CreatePullRequestOption  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestCreatePullRequestOption(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestCreatePullRequestOption(unittest.TestCase):
     def testCreatePullRequestOption(self):
         """Test CreatePullRequestOption"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.create_pull_request_option.CreatePullRequestOption()  # noqa: E501
+        # model = giteapy.models.create_pull_request_option.CreatePullRequestOption()  # noqa: E501
         pass
 
 

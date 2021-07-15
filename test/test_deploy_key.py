@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.deploy_key import DeployKey  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.deploy_key import DeployKey  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestDeployKey(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestDeployKey(unittest.TestCase):
     def testDeployKey(self):
         """Test DeployKey"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.deploy_key.DeployKey()  # noqa: E501
+        # model = giteapy.models.deploy_key.DeployKey()  # noqa: E501
         pass
 
 

@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.git_blob_response import GitBlobResponse  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.git_blob_response import GitBlobResponse  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestGitBlobResponse(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestGitBlobResponse(unittest.TestCase):
     def testGitBlobResponse(self):
         """Test GitBlobResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.git_blob_response.GitBlobResponse()  # noqa: E501
+        # model = giteapy.models.git_blob_response.GitBlobResponse()  # noqa: E501
         pass
 
 

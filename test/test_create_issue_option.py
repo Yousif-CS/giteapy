@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.create_issue_option import CreateIssueOption  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.create_issue_option import CreateIssueOption  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestCreateIssueOption(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestCreateIssueOption(unittest.TestCase):
     def testCreateIssueOption(self):
         """Test CreateIssueOption"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.create_issue_option.CreateIssueOption()  # noqa: E501
+        # model = giteapy.models.create_issue_option.CreateIssueOption()  # noqa: E501
         pass
 
 

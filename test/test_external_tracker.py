@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.external_tracker import ExternalTracker  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.external_tracker import ExternalTracker  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestExternalTracker(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestExternalTracker(unittest.TestCase):
     def testExternalTracker(self):
         """Test ExternalTracker"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.external_tracker.ExternalTracker()  # noqa: E501
+        # model = giteapy.models.external_tracker.ExternalTracker()  # noqa: E501
         pass
 
 

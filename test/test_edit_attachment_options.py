@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.edit_attachment_options import EditAttachmentOptions  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.edit_attachment_options import EditAttachmentOptions  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestEditAttachmentOptions(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestEditAttachmentOptions(unittest.TestCase):
     def testEditAttachmentOptions(self):
         """Test EditAttachmentOptions"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.edit_attachment_options.EditAttachmentOptions()  # noqa: E501
+        # model = giteapy.models.edit_attachment_options.EditAttachmentOptions()  # noqa: E501
         pass
 
 

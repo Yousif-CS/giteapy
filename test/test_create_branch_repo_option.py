@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.create_branch_repo_option import CreateBranchRepoOption  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.create_branch_repo_option import CreateBranchRepoOption  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestCreateBranchRepoOption(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestCreateBranchRepoOption(unittest.TestCase):
     def testCreateBranchRepoOption(self):
         """Test CreateBranchRepoOption"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.create_branch_repo_option.CreateBranchRepoOption()  # noqa: E501
+        # model = giteapy.models.create_branch_repo_option.CreateBranchRepoOption()  # noqa: E501
         pass
 
 

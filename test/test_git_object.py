@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.git_object import GitObject  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.git_object import GitObject  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestGitObject(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestGitObject(unittest.TestCase):
     def testGitObject(self):
         """Test GitObject"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.git_object.GitObject()  # noqa: E501
+        # model = giteapy.models.git_object.GitObject()  # noqa: E501
         pass
 
 

@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.create_pull_review_comment import CreatePullReviewComment  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.create_pull_review_comment import CreatePullReviewComment  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestCreatePullReviewComment(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestCreatePullReviewComment(unittest.TestCase):
     def testCreatePullReviewComment(self):
         """Test CreatePullReviewComment"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.create_pull_review_comment.CreatePullReviewComment()  # noqa: E501
+        # model = giteapy.models.create_pull_review_comment.CreatePullReviewComment()  # noqa: E501
         pass
 
 

@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.topic_name import TopicName  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.topic_name import TopicName  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestTopicName(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestTopicName(unittest.TestCase):
     def testTopicName(self):
         """Test TopicName"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.topic_name.TopicName()  # noqa: E501
+        # model = giteapy.models.topic_name.TopicName()  # noqa: E501
         pass
 
 

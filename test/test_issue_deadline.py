@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.issue_deadline import IssueDeadline  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.issue_deadline import IssueDeadline  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestIssueDeadline(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestIssueDeadline(unittest.TestCase):
     def testIssueDeadline(self):
         """Test IssueDeadline"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.issue_deadline.IssueDeadline()  # noqa: E501
+        # model = giteapy.models.issue_deadline.IssueDeadline()  # noqa: E501
         pass
 
 

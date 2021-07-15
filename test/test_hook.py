@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.hook import Hook  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.hook import Hook  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestHook(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestHook(unittest.TestCase):
     def testHook(self):
         """Test Hook"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.hook.Hook()  # noqa: E501
+        # model = giteapy.models.hook.Hook()  # noqa: E501
         pass
 
 

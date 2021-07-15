@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.create_gpg_key_option import CreateGPGKeyOption  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.create_gpg_key_option import CreateGPGKeyOption  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestCreateGPGKeyOption(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestCreateGPGKeyOption(unittest.TestCase):
     def testCreateGPGKeyOption(self):
         """Test CreateGPGKeyOption"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.create_gpg_key_option.CreateGPGKeyOption()  # noqa: E501
+        # model = giteapy.models.create_gpg_key_option.CreateGPGKeyOption()  # noqa: E501
         pass
 
 

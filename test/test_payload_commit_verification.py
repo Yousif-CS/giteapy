@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.payload_commit_verification import PayloadCommitVerification  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.payload_commit_verification import PayloadCommitVerification  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestPayloadCommitVerification(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestPayloadCommitVerification(unittest.TestCase):
     def testPayloadCommitVerification(self):
         """Test PayloadCommitVerification"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.payload_commit_verification.PayloadCommitVerification()  # noqa: E501
+        # model = giteapy.models.payload_commit_verification.PayloadCommitVerification()  # noqa: E501
         pass
 
 

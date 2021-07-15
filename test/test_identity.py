@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.identity import Identity  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.identity import Identity  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestIdentity(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestIdentity(unittest.TestCase):
     def testIdentity(self):
         """Test Identity"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.identity.Identity()  # noqa: E501
+        # model = giteapy.models.identity.Identity()  # noqa: E501
         pass
 
 

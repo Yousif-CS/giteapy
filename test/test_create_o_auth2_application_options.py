@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.create_o_auth2_application_options import CreateOAuth2ApplicationOptions  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.create_o_auth2_application_options import CreateOAuth2ApplicationOptions  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestCreateOAuth2ApplicationOptions(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestCreateOAuth2ApplicationOptions(unittest.TestCase):
     def testCreateOAuth2ApplicationOptions(self):
         """Test CreateOAuth2ApplicationOptions"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.create_o_auth2_application_options.CreateOAuth2ApplicationOptions()  # noqa: E501
+        # model = giteapy.models.create_o_auth2_application_options.CreateOAuth2ApplicationOptions()  # noqa: E501
         pass
 
 

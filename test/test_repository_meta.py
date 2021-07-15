@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.repository_meta import RepositoryMeta  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.repository_meta import RepositoryMeta  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestRepositoryMeta(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestRepositoryMeta(unittest.TestCase):
     def testRepositoryMeta(self):
         """Test RepositoryMeta"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.repository_meta.RepositoryMeta()  # noqa: E501
+        # model = giteapy.models.repository_meta.RepositoryMeta()  # noqa: E501
         pass
 
 

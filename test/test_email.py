@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.email import Email  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.email import Email  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestEmail(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestEmail(unittest.TestCase):
     def testEmail(self):
         """Test Email"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.email.Email()  # noqa: E501
+        # model = giteapy.models.email.Email()  # noqa: E501
         pass
 
 

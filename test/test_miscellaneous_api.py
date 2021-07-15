@@ -15,16 +15,16 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.api.miscellaneous_api import MiscellaneousApi  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.api.miscellaneous_api import MiscellaneousApi  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestMiscellaneousApi(unittest.TestCase):
     """MiscellaneousApi unit test stubs"""
 
     def setUp(self):
-        self.api = swagger_client.api.miscellaneous_api.MiscellaneousApi()  # noqa: E501
+        self.api = giteapy.api.miscellaneous_api.MiscellaneousApi()  # noqa: E501
 
     def tearDown(self):
         pass

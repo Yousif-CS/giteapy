@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.merge_pull_request_option import MergePullRequestOption  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.merge_pull_request_option import MergePullRequestOption  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestMergePullRequestOption(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestMergePullRequestOption(unittest.TestCase):
     def testMergePullRequestOption(self):
         """Test MergePullRequestOption"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.merge_pull_request_option.MergePullRequestOption()  # noqa: E501
+        # model = giteapy.models.merge_pull_request_option.MergePullRequestOption()  # noqa: E501
         pass
 
 

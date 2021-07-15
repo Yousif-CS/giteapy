@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.payload_commit import PayloadCommit  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.payload_commit import PayloadCommit  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestPayloadCommit(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestPayloadCommit(unittest.TestCase):
     def testPayloadCommit(self):
         """Test PayloadCommit"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.payload_commit.PayloadCommit()  # noqa: E501
+        # model = giteapy.models.payload_commit.PayloadCommit()  # noqa: E501
         pass
 
 

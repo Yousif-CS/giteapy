@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.state_type import StateType  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.state_type import StateType  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestStateType(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestStateType(unittest.TestCase):
     def testStateType(self):
         """Test StateType"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.state_type.StateType()  # noqa: E501
+        # model = giteapy.models.state_type.StateType()  # noqa: E501
         pass
 
 

@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.stop_watch import StopWatch  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.stop_watch import StopWatch  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestStopWatch(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestStopWatch(unittest.TestCase):
     def testStopWatch(self):
         """Test StopWatch"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.stop_watch.StopWatch()  # noqa: E501
+        # model = giteapy.models.stop_watch.StopWatch()  # noqa: E501
         pass
 
 

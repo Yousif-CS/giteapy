@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.pr_branch_info import PRBranchInfo  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.pr_branch_info import PRBranchInfo  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestPRBranchInfo(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestPRBranchInfo(unittest.TestCase):
     def testPRBranchInfo(self):
         """Test PRBranchInfo"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.pr_branch_info.PRBranchInfo()  # noqa: E501
+        # model = giteapy.models.pr_branch_info.PRBranchInfo()  # noqa: E501
         pass
 
 

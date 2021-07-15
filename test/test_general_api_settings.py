@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.general_api_settings import GeneralAPISettings  # noqa: E501
-from swagger_client.rest import ApiException
+import giteapy
+from giteapy.models.general_api_settings import GeneralAPISettings  # noqa: E501
+from giteapy.rest import ApiException
 
 
 class TestGeneralAPISettings(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestGeneralAPISettings(unittest.TestCase):
     def testGeneralAPISettings(self):
         """Test GeneralAPISettings"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.general_api_settings.GeneralAPISettings()  # noqa: E501
+        # model = giteapy.models.general_api_settings.GeneralAPISettings()  # noqa: E501
         pass
 
 
