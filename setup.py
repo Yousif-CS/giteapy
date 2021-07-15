@@ -13,7 +13,7 @@
 
 from setuptools import setup, find_packages  # noqa: H301
 
-NAME = "giteapy"
+NAME = "giteapy-soteria"
 VERSION = "1.15.0"
 # To install the library, run the following
 #
