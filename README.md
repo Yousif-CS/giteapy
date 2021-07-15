@@ -1,4 +1,4 @@
-# swagger-client
+# giteapy
 
 This documentation describes the Gitea API.
 
